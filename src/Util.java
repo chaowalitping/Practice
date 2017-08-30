@@ -20,4 +20,15 @@ public class Util {
         }
         return s.substring(0, (s.length() - 1) / 2).equals(new StringBuilder(s.substring((s.length() + 1) / 2, s.length())).reverse().toString());
     }
+
+    // Euclid
+    public static int gcf(int a, int b) {
+        if (b == 0) return a;
+        else return (gcf(b, a % b));
+    }
+
+    public static int lcm(int a, int b) {
+        return Math.abs(a * b) / gcf(a, b);
+    }
+
 }
