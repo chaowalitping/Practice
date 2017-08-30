@@ -12,4 +12,12 @@ public class Util {
         }
         return true;
     }
+
+    public static boolean isPalindrome(String s) {
+        if (s.length() <= 1) return true;
+        if (s.length() % 2 == 0) {
+            return s.substring(0, s.length() / 2).equals(new StringBuilder(s.substring(s.length() / 2, s.length())).reverse().toString());
+        }
+        return s.substring(0, (s.length() - 1) / 2).equals(new StringBuilder(s.substring((s.length() + 1) / 2, s.length())).reverse().toString());
+    }
 }
