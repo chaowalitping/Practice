@@ -6,5 +6,6 @@ public class Application {
         System.out.println("Hello World");
         System.out.println(Problem1.solve(1000));
         System.out.println(Problem2.solve(4000000));
+        System.out.println(Problem3.solve(600851475143L));
     }
 }
