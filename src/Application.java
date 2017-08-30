@@ -9,5 +9,6 @@ public class Application {
         System.out.println(Problem3.solve(600851475143L));
         System.out.println(Problem4.solve(3));
         System.out.println(Problem5.solve(20));
+        System.out.println(Problem6.solve(100));
     }
 }
