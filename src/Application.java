@@ -11,6 +11,7 @@ public class Application {
         System.out.println(Problem5.solve(20));
         System.out.println(Problem6.solve(100));
         System.out.println(Problem7.solve(10001));
+        System.out.println(Problem8.solve());
         System.out.println(Problem11.solve());
     }
 }
