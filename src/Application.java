@@ -13,6 +13,7 @@ public class Application {
         System.out.println(Problem7.solve(10001));
         System.out.println(Problem8.solve());
         System.out.println(Problem9.solve(1000));
+        System.out.println(Problem10.solve(2000000));
         System.out.println(Problem11.solve());
     }
 }
