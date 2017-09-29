@@ -1,3 +1,5 @@
+package ProjectEuler;
+
 /**
  * Created by OS on 9/2/2017.
  */

@@ -1,3 +1,5 @@
+package ProjectEuler;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -24,7 +26,7 @@ public class Problem14 {
 //
 //    NOTE: Once the chain starts the terms are allowed to go above one million.
 
-    public static double solve(int n) {
+    public static double solve(int n) { // n = 1000000
         double max = 0;
         for (int i = 1; i < n; i++) {
             count = 0;

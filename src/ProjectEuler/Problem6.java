@@ -1,3 +1,5 @@
+package ProjectEuler;
+
 /**
  * Created by OS on 8/30/2017.
  */
@@ -16,7 +18,7 @@ public class Problem6 {
 //    Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
 
-    public static long solve(int n) {
+    public static long solve(int n) { // 100
         long sumSq = 0;
         long sqSum = 0;
         for (int i = 1; i <= n; i++) {

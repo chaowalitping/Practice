@@ -1,3 +1,5 @@
+package ProjectEuler;
+
 /**
  * Created by OS on 9/2/2017.
  */
@@ -11,7 +13,7 @@ public class Problem9 {
 //    There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 //    Find the product abc.
 
-    public static int solve(int n) {
+    public static int solve(int n) { // 1000
         int result = 0;
         for (int i = 0; i <= n; i++) {
             for (int j = 0; j < i; j++) {

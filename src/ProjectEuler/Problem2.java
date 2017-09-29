@@ -1,3 +1,5 @@
+package ProjectEuler;
+
 /**
  * Created by OS on 8/30/2017.
  */
@@ -9,7 +11,7 @@ public class Problem2 {
 //
 //    By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
-    public static int solve(int n) {
+    public static int solve(int n) { // 4000000
         int f0 = 1, f1 = 1, result = 0;
         while (f1 < n) {
             if (f1 % 2 == 0) result += f1;

@@ -1,3 +1,5 @@
+package ProjectEuler;
+
 /**
  * Created by OS on 8/30/2017.
  */
@@ -7,7 +9,7 @@ public class Problem7 {
 //
 //    What is the 10 001st prime number?
 
-    public static int solve(int n) {
+    public static int solve(int n) { //10001
         int result = 2, index = 1, num = 3;
         if (n == 1) return result;
         while (index < n) {

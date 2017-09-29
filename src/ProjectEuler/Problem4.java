@@ -1,3 +1,5 @@
+package ProjectEuler;
+
 /**
  * Created by OS on 8/30/2017.
  */
@@ -7,7 +9,7 @@ public class Problem4 {
 //
 //    Find the largest palindrome made from the product of two 3-digit numbers.
 
-    public static int solve(int n) {
+    public static int solve(int n) { // 3
         n = (int) Math.pow(10, n) - 1;
         int result = 0;
         for (int i = n; i >= 1; i--) {

@@ -1,3 +1,5 @@
+package ProjectEuler;
+
 /**
  * Created by OS on 9/6/2017.
  */
@@ -20,7 +22,7 @@ public class Problem12 {
 //
 //    What is the value of the first triangle number to have over five hundred divisors?
 
-    public static long solve(int n) {
+    public static long solve(int n) { // 500
         int num = 1, count = 1;
         while (true) {
             if (numDiv(num) > n) {

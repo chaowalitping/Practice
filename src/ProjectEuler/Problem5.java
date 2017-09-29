@@ -1,3 +1,5 @@
+package ProjectEuler;
+
 /**
  * Created by OS on 8/30/2017.
  */
@@ -7,7 +9,7 @@ public class Problem5 {
 //
 //    What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
-    public static long solve(int n) {
+    public static long solve(int n) { // 20
         long result = 1;
         for (int i = 2; i <= n; i++) {
             if (result % i != 0)
